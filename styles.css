@@ -1,0 +1,57 @@
+body {
+    background-color: #011F3F;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #FEF2BF;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.square{
+border: 10px solid black;
+border-radius: 15%;
+}
+
+#container{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+#header{
+    text-align: center;
+}
+
+#grid-game{
+    display: grid;
+    grid-template-rows: 250px 250px;
+    grid-template-columns: 250px 250px;
+    gap: 30px;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+  }
+  
+  .fail {
+    background-color: red;
+  }
